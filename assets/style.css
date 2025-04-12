@@ -1,0 +1,93 @@
+
+/* === Ultimate Tic Tac Toe Style === */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2, p, a {
+    color: #f5f5f5;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s;
+}
+
+td:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    color: #888;
+    cursor: not-allowed;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 16px;
+    margin: 10px 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #16a085;
+}
+
+.stats {
+    margin: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
