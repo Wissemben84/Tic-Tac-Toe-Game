@@ -1,0 +1,17 @@
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive configs (if any)
+config/db.php
+
+# Ignore Word report if not needed
+*.docx
+
+# Ignore vendor (if using Composer later)
+vendor/
